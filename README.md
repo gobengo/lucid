@@ -24,7 +24,7 @@ have two requirements:
 2. They support as few CID options as possible (though this set may grow as we explore the space more):
    1. Only v1, no v0.
    2. Only base32 multibase encoding (the `b` prefix) for the string, human-readable encoding.
-   3. Only the raw-binary codec (`0x55`) and (maybe) dag-cbor (`0x71`).
+   3. Only the raw-binary codec (`0x55`).
    4. Only Blake3 hashes (`0x1e`).
    5. No blocks.
    6. This set of options has the added advantage that no varint processing is required.
